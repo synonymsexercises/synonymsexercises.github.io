@@ -79,8 +79,8 @@ function letsstart() {
 
 function checksyn() {
 	if (document.getElementById("synonyms").value == loa[index] || 
-	    document.getElementById("synonyms").value == loa1[index] ||
-	    document.getElementById("synonyms").value == loa2[index]) {
+	    document.getElementById("synonyms").value == loa1[index] && document.getElementById("synonyms").value != null ||
+	    document.getElementById("synonyms").value == loa2[index] && document.getElementById("synonyms").value != null) {
 		document.getElementById("correctorwrong").innerHTML = "CORRECT!";
 	}
 	else {
