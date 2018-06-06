@@ -84,7 +84,7 @@ function checksyn() {
 		document.getElementById("correctorwrong").innerHTML = "CORRECT!";
 	}
 	else {
-		document.getElementById("correctorwrong").innerHTML = "NOPE BIATCH TRY AGAIN";
+		document.getElementById("correctorwrong").innerHTML = "NOPE TRY AGAIN";
 	}
 }
 
