@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="author" content="Sergio Martinelli" />
+		<meta name="description" content="Web page at free disposal for exercising English synonyms" />
+		<meta name="keywords" content="English, vocabulary, synonyms, quiz, exercise, css, javascript" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<noscript>This is what you get if you don't allow JavaScript to work</noscript> 
+
+		
+
+	<style type="text/CSS">
+		body {
+			background-color: red;
+		}
+		h1 {
+			margin: 0 auto;
+			text-align: center;
+		}
+		.divs {
+			margin: 0 auto;
+			text-align: center;
+			font-size: 20px;	
+		}
+		.divcenter {
+			margin-left: 30%;
+			margin-right: 30%; 
+		}
+		.divleft {
+			float: left;
+		}
+		.divright {
+			float: right;
+			
+		} 
+		.bigbuttons {
+			
+			margin-left: 5%;
+			margin-right: 5%;
+			height: 50px; 
+			width: 50%;
+			font-size: 25px;
+		}
+		.smallbuttons {
+			margin-left: 5%;
+			margin-right: 5%;
+			height: 50px; 
+			width: 90%;
+			font-size: 25px;
+		}
+		#synonyms {
+			width: 70%;
+		}
+	</style>
+
+		<title>juicy synonyms exercises</title>
+
+	<script src="program.js"></script>
+	<script src="library of words.js"></script>
+	<script src="library of answers.js"></script>
+	<script src="library of answers1.js"></script>
+	<script src="library of answers2.js"></script>
+
+	</head>
+
+<body>
+	<div class="divs">
+		<h1>SYNONYMS EXERCISES</h1>
+	</div>
+	<div class="divs">	
+		<input type="button" class="bigbuttons" value="START" onclick="letsstart()"></input>
+	</div>
+	
+	<hr></hr>
+	
+	
+	<div class="divs">
+	
+	<!LEFT DIVS-->	
+		<div class="divleft">
+			<input type="button" class="smallbuttons"  id="checksyn" value="check the synonym" onclick="checksyn()"></input>
+			<div class="divs">
+				<p id="correctorwrong"><b>&nbsp;</b></p>
+			</div>
+		</div>
+	<!RIGHT DIVS-->
+		<div class="divright">
+			<input type="button" class="smallbuttons"  id="showsyn" value="show synonyms" onclick="showsyn()"></input>
+			<div class="divs">
+				<p id="possibilities">&nbsp;</p>
+				<p id="possibilitiesloa2">&nbsp;</p>
+			</div>
+		</div>
+	<!CENTRAL DIVS-->
+		<div class="divcenter">
+			<p id="word">&nbsp;</p>
+		</div>
+		<div class="divcenter">
+			<input type="text" class="bigbuttons" id="synonyms" value="&nbsp;"></input>
+		</div>
+	</div>
+  <hr></hr>
+			<center>
+				<p>Developed by Cristoph Pin'Occhio</p>
+				<p>Contact email: cristopinocchio42@gmail.com</p>
+			</center>
+
+</body>
+</html>
